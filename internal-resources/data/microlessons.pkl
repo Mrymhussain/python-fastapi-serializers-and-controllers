@@ -1,0 +1,38 @@
+import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl" as Template
+
+// Add microlessons here, in the order they should be delivered
+
+setup = new Template.Microlesson {
+  friendlyName = "Setup"
+  dirName = "setup"
+  type = "Content"
+  videoUrl = ""
+}
+
+concepts = new Template.Microlesson {
+  friendlyName = "Concepts"
+  dirName = "concepts"
+  type = "Content"
+  videoUrl = ""
+}
+
+creatingPydanticSerializersForData = new Template.Microlesson {
+  friendlyName = "Creating Pydantic Serializers for Data"
+  dirName = "creating-pydantic-serializers-for-data"
+  type = "Content"
+  videoUrl = ""
+}
+
+connectingControllersToDatabase = new Template.Microlesson {
+  friendlyName = "Connecting Controllers to Database"
+  dirName = "connecting-controllers-to-database"
+  type = "Content"
+  videoUrl = ""
+}
+
+testingApiEndpoints = new Template.Microlesson {
+  friendlyName = "Testing API Endpoints"
+  dirName = "testing-api-endpoints"
+  type = "Content"
+  videoUrl = ""
+}
